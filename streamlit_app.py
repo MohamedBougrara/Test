@@ -35,7 +35,7 @@ df = pd.DataFrame({
 
 # Example 4
 
-st.write('Ci-dessous se trouve un DataFrame :', df, 'Ci-dessus se trouve un DataFrame.')
+st.write('Ci-dessous se trouve un DataFrame :', df)
 
 # Graphique à partir d'un dataframe
 
