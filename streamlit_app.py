@@ -65,10 +65,10 @@ import streamlit as st
 
 import streamlit as st
 
-st.header('st.selectbox')
+st.header('Votre couleur préférée')
 
 option = st.selectbox(
-     'What is your favorite color?',
+     'Choisissez-en une?',
      ('Blue', 'Red', 'Green'))
 
 st.write('Your favorite color is ', option)
