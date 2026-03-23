@@ -32,7 +32,6 @@ df = pd.DataFrame({
      "col1": [1, 2, 3, 4],
      "col2": [10, 20, 30, 40]
      })
-st.write(df)
 
 # Example 4
 
