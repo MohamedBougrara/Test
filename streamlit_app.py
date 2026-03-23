@@ -14,13 +14,13 @@ import streamlit as st
 import streamlit as st
 from datetime import time, datetime
 
-st.header('st.slider')
+st.header('Grand Titre')
 
 # Example 1
 
 st.subheader('Slider')
 
-age = st.slider('How old are you?', 0, 130, 25)
+age = st.slider('Quel age avez-vous', 0, 130, 25)
 st.write("I'm ", age, 'years old')
 
 # Example 2
@@ -41,7 +41,7 @@ appointment = st.slider(
      value=(time(11, 30), time(12, 45)))
 st.write("You're scheduled for:", appointment)
 
-# Example 4
+# Example numero 4
 
 st.subheader('Datetime slider')
 
